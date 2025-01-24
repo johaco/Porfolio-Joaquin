@@ -3,12 +3,13 @@ import LogoTitle from "../../assets/images/logo-s.png";
 import "./index.scss";
 import { useEffect, useState } from "react";
 import AnimatedLetters from "../AnimatedLetters";
+import Logo from "./Logo";
 
 
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
-    const nameArray = ['l','o','b','o','d','a','n']
+    const nameArray = ['o','a','q','u','i','n']
     const jobArray = ['w','e','b',' ','d','e','v','e','l','o','p','e','r','.']
 
     useEffect(() => {
@@ -48,11 +49,12 @@ const Home = () => {
                 idx={22}
               />
             </h1>
-            <h2>Front End Developer / JavaScript Expert / Youtuber</h2>
+            <h2>Front End Developer / JavaScript Junior / React</h2>
             <Link to="/contact" className="flat-button">
               CONTACT ME
             </Link>
           </div>
+          <Logo/>
         </div>
   
       </>
