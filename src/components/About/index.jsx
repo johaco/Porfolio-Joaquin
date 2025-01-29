@@ -34,18 +34,13 @@ const About = () => {
                         />
                     </h1>
                     <p>
-                        I'm a very ambitious front-end developer looking for a role in an
-                        established IT company with the opportunity to work with the latest
-                        technologies on challenging and diverse projects.
+                    I am a front-end developer passionate about technology and continuous learning. I am looking for a position in a company where I can apply my knowledge and continue to grow professionally, working with the latest technologies on innovative and challenging projects.
                     </p>
                     <p align="LEFT">
-                        I'm quiet confident, naturally curious, and perpetually working on
-                        improving my chops one design problem at a time.
+                        I stand out for my confidence in decision-making, my problem-solving ability, and my meticulous approach to every detail of web design and development. My innate curiosity drives me to constantly improve my skills and adapt to new trends and methodologies.
                     </p>
                     <p>
-                        If I need to define myself in one sentence that would be a family
-                        person, father of a beautiful daughter, a sports fanatic,
-                        photography enthusiast, and tech-obsessed!!!
+                        Beyond technology, I enjoy nature and martial arts, especially jiu-jitsu, disciplines that reflect my perseverance, discipline, and strategic approach both personally and professionally.
                     </p>
                 </div>
 
@@ -72,7 +67,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <Loader type="pacman"/>
+            <Loader type="pacman" />
         </>
     )
 }

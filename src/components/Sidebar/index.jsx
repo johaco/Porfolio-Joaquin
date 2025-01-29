@@ -30,23 +30,23 @@ const Sidebar = () => {
             </nav>
             <ul>
                 <li>
-                    <a href="www.linkedin.com/in/joaquín-sánchez-12b135265/" target="_blank" rel="noreferrer">
-                        <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+                    <a href="https://www.linkedin.com/in/joaqu%C3%ADn-s%C3%A1nchez-12b135265/" target="_blank" rel="noreferrer">
+                        <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e"  className="anchor-icon"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/johaco" target="_blank" rel="noreferrer">
+                        <FontAwesomeIcon icon={faGithub} color="#4d4d4e"  className="anchor-icon"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/johaco.x?igsh=ZzlkYTZkZWVmb3J5" target="_blank" rel="noreferrer">
+                        <FontAwesomeIcon icon={faInstagram} color="#4d4d4e"  className="anchor-icon"/>
                     </a>
                 </li>
                 <li>
                     <a href="www.linkedin.com/in/joaquín-sánchez-12b135265" target="_blank" rel="noreferrer">
-                        <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
-                    </a>
-                </li>
-                <li>
-                    <a href="www.linkedin.com/in/joaquín-sánchez-12b135265" target="_blank" rel="noreferrer">
-                        <FontAwesomeIcon icon={faInstagram} color="#4d4d4e" />
-                    </a>
-                </li>
-                <li>
-                    <a href="www.linkedin.com/in/joaquín-sánchez-12b135265" target="_blank" rel="noreferrer">
-                        <FontAwesomeIcon icon={faYoutube} color="#4d4d4e" />
+                        <FontAwesomeIcon icon={faYoutube} color="#4d4d4e"  className="anchor-icon"/>
                     </a>
                 </li>
             </ul>
