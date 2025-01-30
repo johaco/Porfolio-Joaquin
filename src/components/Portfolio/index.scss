@@ -111,3 +111,25 @@
         }
     }
 }
+
+@media screen and (max-width: 1200px) {
+    .container.portfolio-page {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+
+        h1.page-title {
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+        .images-container {
+            justify-content: center; /* Asegura que los elementos estén bien centrados */
+        }
+
+        .image-box {
+            flex: 1 1 100%; /* Ocupa todo el ancho */
+            max-width: 100%; /* Un solo proyecto por fila */
+            height: 400px; /* Ajusta la altura para que sea más cuadrada */
+        }
+    }
+}

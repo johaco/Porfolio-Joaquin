@@ -161,3 +161,35 @@
     overflow: visible;
   }
 }
+
+@media (min-width:1100px) and (min-height:900px) {
+	h1 {
+	  font-size: 73px !important;
+	  line-height: 67px !important
+	}
+	.home-page h2 {
+	  font-size: 14px !important
+	}
+	.text-zone p {
+	  font-size: 16px !important;
+	  line-height: 23px !important
+	}
+	.container.contact .text-zone h1:before,
+	.container.skills .text-zone h1:before,
+	.container.about .text-zone h1:before {
+	  margin-top: -38px
+	}
+	.container.contact .text-zone h1:after,
+	.container.skills .text-zone h1:after,
+	.container.about .text-zone h1:after {
+	  bottom: -44px
+	}
+	.bg {
+	  -webkit-transform: scale(1.2);
+	  -ms-transform: scale(1.2);
+	  transform: scale(1.2)
+	}
+	.home-page h1 img {
+	  width: 38px;
+	}
+  }
