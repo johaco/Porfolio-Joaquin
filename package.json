@@ -1,6 +1,7 @@
 {
   "name": "porfolio-joaquin",
   "private": true,
+  "homepage": "https://johaco.github.io/Porfolio-Joaquin",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
