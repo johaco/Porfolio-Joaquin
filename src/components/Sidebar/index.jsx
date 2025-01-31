@@ -12,9 +12,9 @@ const Sidebar = () => {
     const [showNav, setShowNav] = useState(false);
 
     return (
-        <div className="nav-bar">
+        <div className={`nav-bar ${showNav ? 'mobile-show' : ''}`}>
             <Link className="logo" to='/'>
-                <img src={LogoS} alt="logo" />
+                <img src={LogoS} alt="logo" onClick={() => setShowNav(false)}/>
                 <img className="sub-logo" src={LogoSubtitle} alt="joaquin" />
             </Link>
             <nav className={showNav ? 'mobile-show' : ''}>
