@@ -56,11 +56,6 @@ const Sidebar = () => {
                         <FontAwesomeIcon icon={faInstagram} color="#4d4d4e" className="anchor-icon" />
                     </a>
                 </li>
-                <li>
-                    <a href="www.linkedin.com/in/joaquín-sánchez-12b135265" target="_blank" rel="noreferrer">
-                        <FontAwesomeIcon icon={faYoutube} color="#4d4d4e" className="anchor-icon" />
-                    </a>
-                </li>
             </ul>
             <FontAwesomeIcon onClick={() => setShowNav(true)} icon={faBars} color='#ffd700' size='3x' className='hamburger-icon' />
         </div>

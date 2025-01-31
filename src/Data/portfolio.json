@@ -1,16 +1,16 @@
 {
     "portfolio":[
         {
-            "cover":"/public/portfolio/1/one.png",
-            "title":"Project 1",
-            "description":"JavaScript, HTMLL, Css, Bootstraps",
-            "url":"https://google.com"
+            "cover":"/public/portfolio/3/three.png",
+            "title":"Tu Bienestar",
+            "description":"React, JavaScript, HTMLL, Css, Bootstraps",
+            "url":"https://johaco.github.io/Tu-Bienestar---App"
         },
         {
-            "cover":"/public/portfolio/1/one.png",
-            "title":"Project 1",
+            "cover":"/public/portfolio/2/two.png",
+            "title":"Gif App",
             "description":"JavaScript, HTMLL, Css, Bootstraps",
-            "url":"https://google.com"
+            "url":"https://johaco.github.io/react-app-gif/"
         },
         {
             "cover":"/public/portfolio/1/one.png",
