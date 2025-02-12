@@ -142,8 +142,7 @@
       position: initial;
       height: auto;
       min-height: auto;
-
-     
+      
   
        ul, nav {
         display: none;
@@ -154,33 +153,32 @@
         top: 0;
         left: 0;
         background: #181818;
-        height: 100%;
+        height: auto;
         margin: 0;
         z-index: 2;
         position: fixed;
   
         &.mobile-show {
+          top: auto;
           display: flex;
-          flex-direction: column;
+          flex-direction: row;
           justify-content: center;
-          align-items: center;
+          align-items: center;  
         }
   
         a {
           display: flex;
           justify-content: center;
           align-items: center;
+          margin-inline: auto;
         }
   
         a:after {
-          opacity: 1;
-          position: initial;
-          width: auto;
-          margin-left: 10px;
+          opacity: 0;
         }
   
         a svg {
-          opacity: 0 !important;
+          opacity: 1 !important;
         }
        }
   
@@ -195,6 +193,7 @@
        .logo {
         display: block;
         padding: 0;
+        
     
         img {
           display: block;
