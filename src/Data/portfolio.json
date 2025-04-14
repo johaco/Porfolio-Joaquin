@@ -1,19 +1,19 @@
 {
     "portfolio":[
         {
-            "cover":"/public/portfolio/1/drum-kit.png",
+            "cover":"/portfolio/1/drum-kit.png",
             "title":"Virtual Drunm Kit",
             "description":"React, JavaScript, HTMLL, Css",
-            "url":"https://johaco.github.io/Tu-Bienestar---App"
-        },
-        {
-            "cover":"/public/portfolio/3/three.png",
-            "title":"Tu Bienestar",
-            "description":"React, JavaScript, HTMLL, Css, Bootstraps",
             "url":"https://drum-kit-virtual.netlify.app/"
         },
         {
-            "cover":"/public/portfolio/2/two.png",
+            "cover":"/portfolio/3/three.png",
+            "title":"Tu Bienestar",
+            "description":"React, JavaScript, HTMLL, Css, Bootstraps",
+            "url":"https://johaco.github.io/Tu-Bienestar---App"
+        },
+        {
+            "cover":"/portfolio/2/two.png",
             "title":"Gif App",
             "description":"JavaScript, HTMLL, Css, Bootstraps",
             "url":"https://johaco.github.io/react-app-gif/"
