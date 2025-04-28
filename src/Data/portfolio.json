@@ -3,7 +3,7 @@
         {
             "cover":"/portfolio/1/drum-kit.png",
             "title":"Virtual Drunm Kit",
-            "description":"React, JavaScript, HTMLL, Css",
+            "description":"JavaScript, HTMLL, Css",
             "url":"https://drum-kit-virtual.netlify.app/"
         },
         {
@@ -17,6 +17,12 @@
             "title":"Gif App",
             "description":"JavaScript, HTMLL, Css, Bootstraps",
             "url":"https://johaco.github.io/react-app-gif/"
+        },
+        {
+            "cover":"/portfolio/4/pixelando.png",
+            "title":"Gif App",
+            "description":"JavaScript, HTMLL, Css, Bootstraps",
+            "url":"https://pixelando.netlify.app/"
         }
     ]
 }
